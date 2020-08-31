@@ -6,7 +6,6 @@
     <script type="text/javascript" src='21_8_2020_koodi.js'></script>
     </head>
     <body>
-      <article class='vieri' id='yksi'>
     <h1>Tehtävä 1</h1>
       <form class="" action="index.html" method="post">
           <p>Anna luku: <input type="text" id="negposnum" value=""></p>
@@ -14,7 +13,6 @@
         </form>
         <p> <div id="tulosta1"></div> </p>
       </article>
-     <article  class='vieri' id='kaksi'>
         <h1>Tehtävä 2</h1>
         <form class="" action="index.html" method="post">
           <p>Anna viikonpäivän numero: <input type="text" id="viikol" value=""
@@ -22,5 +20,27 @@
             <button type="button" name="button" onclick="pylykaka()">Viikonpäivä numerona</button>
            </form>
            <p> <div id="tulosta2"></div> </p>
+          <h1>Tehtävä 3</h1>
+          <form class="" action="index.html" method="post">
+            <p>Anna luku: <input type="text" id="karkausv" value=""><p>
+              <button type="button" name="button" onclick="karkv()">Tarkista karkausvuosi</button>
+            </form>
+              <p> <div id="tulosta3"></div> </p>
+              <h1>Tehtävä 4</h1>
+              <form class="" action="index.html" method="post">
+    <p>Anna 1. luku: <input type="text" id="luku_1" value=""><br/>
+      Anna 2. luku: <input type="text" id="luku_2" value=""><br/>
+      Anna 3. luku: <input type="text" id="luku_3" value=""><br/>
+      Anna 4. luku: <input type="text" id="luku_4" value=""><br/>
+      Anna 5. luku: <input type="text" id="luku_5" value=""></p>
+        <button type="button" name="button" onclick="sumKesk()">Laske summa ja keskiarvo</button>
+      </form>
+      <p> <div id="tulosta4"></div> </p>
+      <h1>Tehtävä 5</h1>
+           <p>Kirjoita ohjelma, joka pyytää luvun ja tulostaa sen kertotaulun (1-10)</p>
+         <p>Anna luku, josta haluat kertotaulun: <input type="text" id="kerrotus" value=""> </p>
+         <button type="button" id="button" onclick="kertoT()">Muodosta kertotaulu</button>
+         <p> <div id="tulosta5"></div> </p>
+
   </body>
 </html>
